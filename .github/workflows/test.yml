@@ -23,6 +23,9 @@ jobs:
 
       - name: Setup Python Virtual Environment
         run: python -m venv python3-virtualvenv
+        
+      - name: Pip upgrade
+        run: pip install --upgrade pip
 
       - name: Install Dependencies
         run:  python3-virtualvenv/bin/pip install -r requirements.txt
