@@ -17,7 +17,6 @@ folium==0.12.1.post1
 idna==3.3
 itsdangerous==2.0.1
 Jinja2==3.0.1
-jupyter-client==7.3.4
 jupyter-core==4.10.0
 MarkupSafe==2.0.1
 matplotlib-inline==0.1.3
